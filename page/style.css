@@ -1,0 +1,92 @@
+/*背景黑色 文字灰白*/
+body {
+  background-color: black;
+  color:#DDDDDD;
+  margin: 50px 50px;
+  padding:50px
+}
+h1 {
+  position: relative;		/*div向右移動*/
+  left: 10%;
+}
+/*區塊土色*/
+div {
+  background-color: #241201;
+}
+.d1 {
+  margin: 100px 0px;
+  padding:50px 100px;
+}
+.d2 {
+
+}
+.di {
+  display:inline-block;
+  width: 49%;
+  vertical-align: middle;	/*文字垂直置中*/
+  position: relative;		/*div向右移動*/
+  left: 10%;
+  
+}
+.dib {
+  display:inline-block;
+  background-color: black;
+}
+/*隱藏清單*/
+ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+}
+ul.um>li {
+  float: left;
+  position:relative;
+  padding: 0 30px;
+  transition:0.3s;
+  border-radius:50%;
+}
+ul.um ul {
+  display:none;
+  position:absolute;
+  z-index: 2;
+}
+ul.um ul li{
+  border: #666666 5px solid;
+  background-color:#666666;
+}
+li:hover{
+  background-color:#666666;
+}
+li:hover>ul{
+  display:block;
+}
+a {
+  color:#DDDDDD;
+  text-decoration:none;
+  
+}
+a:hover{
+  color:#EE7700;
+	
+}
+/*表格鐵灰色*/
+table {
+  background-color: #222222;
+  border-style:outset;
+}
+th {
+  color:white;
+  border-style:groove;
+  width:180px;
+}
+td {
+  color:#FF5511;
+  border-style:outset;
+  border-color:#241201;
+  font-weight: bolder;
+}
+.td1 {
+  color:yellowgreen;
+  font-weight: normal;
+  width:30px;
+}
